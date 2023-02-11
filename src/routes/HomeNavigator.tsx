@@ -6,7 +6,10 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Home from '../screens/home/Home';
 import Member from '../screens/home/Member';
 
-const Stack = createStackNavigator();
+//types
+import {HomeStackParamList} from './types';
+
+const Stack = createStackNavigator<HomeStackParamList>();
 
 function HomeNavigator() {
   return (

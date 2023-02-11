@@ -12,7 +12,9 @@ import Favourites from '../screens/Favourites';
 import {Drawer as CustomDrawer} from '../components';
 import {colors} from '../theme';
 
-const Drawer = createDrawerNavigator();
+import {RootStackParamList} from './types';
+
+const Drawer = createDrawerNavigator<RootStackParamList>();
 
 function AppNavigator() {
   return (

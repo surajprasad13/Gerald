@@ -11,8 +11,9 @@ import {colors} from '../theme';
 import HomeNavigator from './HomeNavigator';
 import Animated from 'react-native-reanimated';
 import {DrawerProgress} from '../helpers';
+import {BottomStackParamList} from './types';
 
-const Bottom = createBottomTabNavigator();
+const Bottom = createBottomTabNavigator<BottomStackParamList>();
 
 function BottomNavigator({}) {
   const screenStyles = DrawerProgress();
