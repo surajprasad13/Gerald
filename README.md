@@ -127,3 +127,11 @@ Assuming you have all the requirements installed, you can setup and run the proj
   - [Using CocoaPods to manage your package dependencies](docs/setup%20cocoapods.md)
 
 - You may want to use gradlew for android development [gradle](https://docs.gradle.org/current/userguide/gradle_wrapper.html)
+
+
+
+https://user-images.githubusercontent.com/48089919/218252703-bc896057-ce9f-4147-bed3-44bd97012d47.mp4
+
+
+
+
